@@ -1,4 +1,4 @@
-package fatum.io.github.fatumapp.storage
+package io.github.fatumapp.storage
 
 import io.github.fatumapp.storage.FileStorageProperties
 import org.springframework.core.ParameterizedTypeReference

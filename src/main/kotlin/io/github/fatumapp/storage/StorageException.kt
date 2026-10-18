@@ -1,4 +1,4 @@
-package fatum.io.github.fatumapp.storage
+package io.github.fatumapp.storage
 
 class StorageException (
     message: String,

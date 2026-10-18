@@ -1,4 +1,4 @@
-package fatum.io.github.fatumapp.storage
+package io.github.fatumapp.storage
 
 import org.springframework.core.ParameterizedTypeReference
 import org.springframework.core.io.ByteArrayResource

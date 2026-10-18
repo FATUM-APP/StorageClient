@@ -1,3 +1,4 @@
+import org.gradle.api.publish.maven.MavenPublication
 plugins {
     `java-library`
     `maven-publish`
@@ -40,3 +41,15 @@ kotlin {
 java {
     withSourcesJar()
 }
+
+
+
+publishing {
+    publications {
+        create<MavenPublication>("library") {
+            from(components["java"])
+            artifactId = "fatum-storage-spring-boot-starter"
+        }
+    }
+}
+

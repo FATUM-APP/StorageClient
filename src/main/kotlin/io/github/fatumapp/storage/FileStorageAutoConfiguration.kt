@@ -1,7 +1,7 @@
 package io.github.fatumapp.storage
 
-import fatum.io.github.fatumapp.storage.FileStorageClient
-import fatum.io.github.fatumapp.storage.HttpFileStorageClient
+import io.github.fatumapp.storage.FileStorageClient
+import io.github.fatumapp.storage.HttpFileStorageClient
 import org.springframework.boot.autoconfigure.AutoConfiguration
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean

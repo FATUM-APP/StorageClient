@@ -1,4 +1,4 @@
-package fatum.io.github.fatumapp.storage
+package io.github.fatumapp.storage
 
 data class StoredFile(
     val id: String?,

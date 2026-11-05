@@ -28,7 +28,7 @@ dependencyManagement {
 
 dependencies {
     api("org.springframework:spring-web")
-
+    api("org.reactivestreams:reactive-streams")
     implementation(
         "org.springframework.boot:spring-boot-autoconfigure"
     )

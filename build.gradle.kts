@@ -51,5 +51,14 @@ publishing {
             artifactId = "fatum-storage-spring-boot-starter"
         }
     }
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/FATUM-APP/StorageClient")
+            credentials {
+                username = System.getenv("GITHUB_ACTOR") ?: ""
+                password = System.getenv("GITHUB_TOKEN") ?: ""
+            }
+        }
+    }
 }
-

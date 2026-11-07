@@ -17,5 +17,5 @@ class FileStorageProperties {
 
     var uploadPath: String = "/files"
     var deletePath: String = "/files"
-    var presignPath: String = "/files/url"
+    var presignPath: String = "/files"
 }
